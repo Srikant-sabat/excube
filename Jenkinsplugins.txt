@@ -1,0 +1,10 @@
+
+Email Extension Plugin
+https://wiki.jenkins-ci.org/display/JENKINS/Email-ext+plugin
+
+Pre-send Script
+      def reportPath = build.getWorkspace () .child(*ScreenShots / advancereport.html*)
+      msg.setContent (reportPath . readToString(), "text / html");
+
+TESTSNG RESULTS PLUGIN
+https://wiki.jenkins-ci.org/display/JENKINS/testng-plugin

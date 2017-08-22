@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.test.excube360.TestCases.CopyPasteEnvironmentScan"/>
+      <class name="com.test.excube360.TestCases.ApplyCoupon"/>
+      <class name="com.test.excube360.TestCases.BuyReport"/>
+      <class name="com.test.excube360.TestCases.SearchWithNoKeywords"/>
+      <class name="com.test.excube360.TestCases.LinkedIn"/>
+      <class name="com.test.excube360.TestCases.LandingPageSearch"/>
+      <class name="com.test.excube360.TestCases.ReportTest"/>
+      <class name="com.test.excube360.TestCases.SearchWithThreeKeywords"/>
+      <class name="com.test.excube360.TestCases.MyContent"/>
+      <class name="com.test.excube360.TestCases.SearchWithTwoKeywords"/>
+      <class name="com.test.excube360.TestCases.ForgotPassword"/>
+      <class name="com.test.excube360.TestCases.SearchWithoutLogin"/>
+      <class name="com.test.excube360.TestCases.DownloadReport"/>
+      <class name="com.test.excube360.TestCases.SearchWithFiveKeywords"/>
+      <class name="com.test.excube360.TestCases.ViewResult"/>
+      <class name="com.test.excube360.TestCases.FBShare"/>
+      <class name="com.test.excube360.TestCases.LandingPageText"/>
+      <class name="com.test.excube360.TestCases.SearchWithOneKeyword"/>
+      <class name="com.test.excube360.TestCases.VarifyLogin"/>
+      <class name="com.test.excube360.TestCases.SearchWithFourKeywords"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

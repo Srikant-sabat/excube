@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="514035" started-at="2017-08-16T10:07:36Z" finished-at="2017-08-16T10:16:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="514035" started-at="2017-08-16T10:07:36Z" finished-at="2017-08-16T10:16:11Z">
+      <class name="com.test.excube360.TestCases.SearchWithOneKeyword">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca]" name="beforeclass" is-config="true" duration-ms="40063" started-at="2017-08-16T15:44:19Z" finished-at="2017-08-16T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="One_Word_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca]" name="One_Word_Search" duration-ms="585" started-at="2017-08-16T15:44:59Z" finished-at="2017-08-16T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- One_Word_Search -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca]" name="afterclass" is-config="true" duration-ms="2308" started-at="2017-08-16T15:44:59Z" finished-at="2017-08-16T15:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:44:59Z" finished-at="2017-08-16T15:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=One_Word_Search status=SUCCESS method=SearchWithOneKeyword.One_Word_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithOneKeyword -->
+      <class name="com.test.excube360.TestCases.DownloadReport">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.DownloadReport@22f71333]" name="beforeclass" is-config="true" duration-ms="9129" started-at="2017-08-16T15:42:21Z" finished-at="2017-08-16T15:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="ReportDownload()[pri:0, instance:com.test.excube360.TestCases.DownloadReport@22f71333]" name="ReportDownload" duration-ms="26474" started-at="2017-08-16T15:42:30Z" finished-at="2017-08-16T15:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.DownloadReport@22f71333]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:42:57Z" finished-at="2017-08-16T15:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ReportDownload status=SUCCESS method=DownloadReport.ReportDownload()[pri:0, instance:com.test.excube360.TestCases.DownloadReport@22f71333] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.DownloadReport@22f71333]" name="afterclass" is-config="true" duration-ms="2281" started-at="2017-08-16T15:42:57Z" finished-at="2017-08-16T15:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.DownloadReport -->
+      <class name="com.test.excube360.TestCases.SearchWithFourKeywords">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5]" name="beforeclass" is-config="true" duration-ms="7094" started-at="2017-08-16T15:45:47Z" finished-at="2017-08-16T15:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5]" name="Five_Words_Search" duration-ms="14501" started-at="2017-08-16T15:45:54Z" finished-at="2017-08-16T15:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Five_Words_Search -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:46:08Z" finished-at="2017-08-16T15:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Five_Words_Search status=SUCCESS method=SearchWithFourKeywords.Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5]" name="afterclass" is-config="true" duration-ms="2312" started-at="2017-08-16T15:46:08Z" finished-at="2017-08-16T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithFourKeywords -->
+      <class name="com.test.excube360.TestCases.ViewResult">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.ViewResult@6aaa5eb0]" name="beforeclass" is-config="true" duration-ms="6153" started-at="2017-08-16T15:43:18Z" finished-at="2017-08-16T15:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="ResultView()[pri:0, instance:com.test.excube360.TestCases.ViewResult@6aaa5eb0]" name="ResultView" duration-ms="6838" started-at="2017-08-16T15:43:25Z" finished-at="2017-08-16T15:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResultView -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.ViewResult@6aaa5eb0]" name="afterclass" is-config="true" duration-ms="2306" started-at="2017-08-16T15:43:31Z" finished-at="2017-08-16T15:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.ViewResult@6aaa5eb0]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:43:31Z" finished-at="2017-08-16T15:43:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ResultView status=SUCCESS method=ViewResult.ResultView()[pri:0, instance:com.test.excube360.TestCases.ViewResult@6aaa5eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.ViewResult -->
+      <class name="com.test.excube360.TestCases.ReportTest">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.ReportTest@2f7a2457]" name="beforeclass" is-config="true" duration-ms="5243" started-at="2017-08-16T15:39:51Z" finished-at="2017-08-16T15:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Report()[pri:0, instance:com.test.excube360.TestCases.ReportTest@2f7a2457]" name="Report" duration-ms="4672" started-at="2017-08-16T15:39:56Z" finished-at="2017-08-16T15:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.ReportTest@2f7a2457]" name="afterclass" is-config="true" duration-ms="2023" started-at="2017-08-16T15:40:01Z" finished-at="2017-08-16T15:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.ReportTest@2f7a2457]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:40:01Z" finished-at="2017-08-16T15:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Report status=SUCCESS method=ReportTest.Report()[pri:0, instance:com.test.excube360.TestCases.ReportTest@2f7a2457] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.ReportTest -->
+      <class name="com.test.excube360.TestCases.ForgotPassword">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.ForgotPassword@6bf256fa]" name="beforeclass" is-config="true" duration-ms="7338" started-at="2017-08-16T15:41:06Z" finished-at="2017-08-16T15:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="ForgetPassword()[pri:0, instance:com.test.excube360.TestCases.ForgotPassword@6bf256fa]" name="ForgetPassword" duration-ms="20273" started-at="2017-08-16T15:41:13Z" finished-at="2017-08-16T15:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.ForgotPassword@6bf256fa]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:41:34Z" finished-at="2017-08-16T15:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPassword status=SUCCESS method=ForgotPassword.ForgetPassword()[pri:0, instance:com.test.excube360.TestCases.ForgotPassword@6bf256fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.ForgotPassword@6bf256fa]" name="afterclass" is-config="true" duration-ms="2272" started-at="2017-08-16T15:41:34Z" finished-at="2017-08-16T15:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.ForgotPassword -->
+      <class name="com.test.excube360.TestCases.BuyReport">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.BuyReport@60f82f98]" name="beforeclass" is-config="true" duration-ms="5694" started-at="2017-08-16T15:38:38Z" finished-at="2017-08-16T15:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Reportbuy()[pri:0, instance:com.test.excube360.TestCases.BuyReport@60f82f98]" name="Reportbuy" duration-ms="12029" started-at="2017-08-16T15:38:44Z" finished-at="2017-08-16T15:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportbuy -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.BuyReport@60f82f98]" name="afterclass" is-config="true" duration-ms="2274" started-at="2017-08-16T15:38:56Z" finished-at="2017-08-16T15:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.BuyReport@60f82f98]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:38:56Z" finished-at="2017-08-16T15:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Reportbuy status=SUCCESS method=BuyReport.Reportbuy()[pri:0, instance:com.test.excube360.TestCases.BuyReport@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.BuyReport -->
+      <class name="com.test.excube360.TestCases.SearchWithTwoKeywords">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b]" name="beforeclass" is-config="true" duration-ms="6310" started-at="2017-08-16T15:40:40Z" finished-at="2017-08-16T15:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b]" name="Five_Words_Search" duration-ms="17212" started-at="2017-08-16T15:40:47Z" finished-at="2017-08-16T15:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Five_Words_Search -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b]" name="afterclass" is-config="true" duration-ms="2300" started-at="2017-08-16T15:41:04Z" finished-at="2017-08-16T15:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:41:04Z" finished-at="2017-08-16T15:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Five_Words_Search status=SUCCESS method=SearchWithTwoKeywords.Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithTwoKeywords -->
+      <class name="com.test.excube360.TestCases.SearchWithThreeKeywords">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad]" name="beforeclass" is-config="true" duration-ms="5389" started-at="2017-08-16T15:40:03Z" finished-at="2017-08-16T15:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad]" name="Five_Words_Search" duration-ms="21272" started-at="2017-08-16T15:40:08Z" finished-at="2017-08-16T15:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Five_Words_Search -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad]" name="afterclass" is-config="true" duration-ms="2622" started-at="2017-08-16T15:40:29Z" finished-at="2017-08-16T15:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:40:29Z" finished-at="2017-08-16T15:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Five_Words_Search status=SUCCESS method=SearchWithThreeKeywords.Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithThreeKeywords -->
+      <class name="com.test.excube360.TestCases.SearchWithNoKeywords">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6]" name="beforeclass" is-config="true" duration-ms="6194" started-at="2017-08-16T15:38:58Z" finished-at="2017-08-16T15:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="No_Word_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6]" name="No_Word_Search" duration-ms="415" started-at="2017-08-16T15:39:04Z" finished-at="2017-08-16T15:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- No_Word_Search -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:39:05Z" finished-at="2017-08-16T15:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=No_Word_Search status=SUCCESS method=SearchWithNoKeywords.No_Word_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6]" name="afterclass" is-config="true" duration-ms="2018" started-at="2017-08-16T15:39:05Z" finished-at="2017-08-16T15:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithNoKeywords -->
+      <class name="com.test.excube360.TestCases.ApplyCoupon">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.ApplyCoupon@6442b0a6]" name="beforeclass" is-config="true" duration-ms="5714" started-at="2017-08-16T15:37:52Z" finished-at="2017-08-16T15:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="CoupanCheck()[pri:0, instance:com.test.excube360.TestCases.ApplyCoupon@6442b0a6]" name="CoupanCheck" duration-ms="37993" started-at="2017-08-16T15:37:58Z" finished-at="2017-08-16T15:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoupanCheck -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.ApplyCoupon@6442b0a6]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:38:36Z" finished-at="2017-08-16T15:38:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CoupanCheck status=SUCCESS method=ApplyCoupon.CoupanCheck()[pri:0, instance:com.test.excube360.TestCases.ApplyCoupon@6442b0a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.ApplyCoupon@6442b0a6]" name="afterclass" is-config="true" duration-ms="2036" started-at="2017-08-16T15:38:36Z" finished-at="2017-08-16T15:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.ApplyCoupon -->
+      <class name="com.test.excube360.TestCases.CopyPasteEnvironmentScan">
+        <test-method status="PASS" signature="seup()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="seup" is-config="true" duration-ms="218" started-at="2017-08-16T15:37:36Z" finished-at="2017-08-16T15:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seup -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="beforeclass" is-config="true" duration-ms="6585" started-at="2017-08-16T15:37:36Z" finished-at="2017-08-16T15:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="CopyPaste()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="CopyPaste" duration-ms="7263" started-at="2017-08-16T15:37:43Z" finished-at="2017-08-16T15:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyPaste -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="getResult" is-config="true" duration-ms="2" started-at="2017-08-16T15:37:50Z" finished-at="2017-08-16T15:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CopyPaste status=SUCCESS method=CopyPasteEnvironmentScan.CopyPaste()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="afterclass" is-config="true" duration-ms="2028" started-at="2017-08-16T15:37:50Z" finished-at="2017-08-16T15:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970]" name="teardown" is-config="true" duration-ms="455" started-at="2017-08-16T15:46:11Z" finished-at="2017-08-16T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.excube360.TestCases.CopyPasteEnvironmentScan -->
+      <class name="com.test.excube360.TestCases.LandingPageText">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.LandingPageText@1a407d53]" name="beforeclass" is-config="true" duration-ms="4772" started-at="2017-08-16T15:44:05Z" finished-at="2017-08-16T15:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="HomePageSearchTest()[pri:0, instance:com.test.excube360.TestCases.LandingPageText@1a407d53]" name="HomePageSearchTest" duration-ms="6884" started-at="2017-08-16T15:44:10Z" finished-at="2017-08-16T15:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageSearchTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.LandingPageText@1a407d53]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:44:17Z" finished-at="2017-08-16T15:44:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageSearchTest status=SUCCESS method=LandingPageText.HomePageSearchTest()[pri:0, instance:com.test.excube360.TestCases.LandingPageText@1a407d53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.LandingPageText@1a407d53]" name="afterclass" is-config="true" duration-ms="2024" started-at="2017-08-16T15:44:17Z" finished-at="2017-08-16T15:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.LandingPageText -->
+      <class name="com.test.excube360.TestCases.MyContent">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.MyContent@6108b2d7]" name="beforeclass" is-config="true" duration-ms="5487" started-at="2017-08-16T15:40:32Z" finished-at="2017-08-16T15:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="MyContentPageCheck()[pri:0, instance:com.test.excube360.TestCases.MyContent@6108b2d7]" name="MyContentPageCheck" duration-ms="2726" started-at="2017-08-16T15:40:38Z" finished-at="2017-08-16T15:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyContentPageCheck -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.MyContent@6108b2d7]" name="afterclass" is-config="true" duration-ms="61" started-at="2017-08-16T15:40:40Z" finished-at="2017-08-16T15:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.MyContent@6108b2d7]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:40:40Z" finished-at="2017-08-16T15:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MyContentPageCheck status=SUCCESS method=MyContent.MyContentPageCheck()[pri:0, instance:com.test.excube360.TestCases.MyContent@6108b2d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.MyContent -->
+      <class name="com.test.excube360.TestCases.VarifyLogin">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="beforeclass" is-config="true" duration-ms="5033" started-at="2017-08-16T15:45:02Z" finished-at="2017-08-16T15:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="newRegisterTest()[pri:1, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="newRegisterTest" duration-ms="32408" started-at="2017-08-16T15:45:07Z" finished-at="2017-08-16T15:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegisterTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-16T15:45:07Z" finished-at="2017-08-16T15:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.excube360.TestCases.VarifyLogin.newRegisterTest() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="login" duration-ms="5267" started-at="2017-08-16T15:45:39Z" finished-at="2017-08-16T15:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-16T15:45:39Z" finished-at="2017-08-16T15:45:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.excube360.TestCases.VarifyLogin.login() throws java.lang.InterruptedException,org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:45:39Z" finished-at="2017-08-16T15:45:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newRegisterTest status=SUCCESS method=VarifyLogin.newRegisterTest()[pri:1, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="afterclass" is-config="true" duration-ms="2328" started-at="2017-08-16T15:45:44Z" finished-at="2017-08-16T15:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:45:44Z" finished-at="2017-08-16T15:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=VarifyLogin.login()[pri:2, instance:com.test.excube360.TestCases.VarifyLogin@5ebec15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.VarifyLogin -->
+      <class name="com.test.excube360.TestCases.SearchWithFiveKeywords">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe]" name="beforeclass" is-config="true" duration-ms="6687" started-at="2017-08-16T15:42:59Z" finished-at="2017-08-16T15:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe]" name="Five_Words_Search" duration-ms="10499" started-at="2017-08-16T15:43:06Z" finished-at="2017-08-16T15:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Five_Words_Search -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:43:16Z" finished-at="2017-08-16T15:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Five_Words_Search status=SUCCESS method=SearchWithFiveKeywords.Five_Words_Search()[pri:0, instance:com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe]" name="afterclass" is-config="true" duration-ms="2047" started-at="2017-08-16T15:43:16Z" finished-at="2017-08-16T15:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithFiveKeywords -->
+      <class name="com.test.excube360.TestCases.LandingPageSearch">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.LandingPageSearch@edf4efb]" name="beforeclass" is-config="true" duration-ms="4975" started-at="2017-08-16T15:39:22Z" finished-at="2017-08-16T15:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="LandingPageSearchTest()[pri:0, instance:com.test.excube360.TestCases.LandingPageSearch@edf4efb]" name="LandingPageSearchTest" duration-ms="22001" started-at="2017-08-16T15:39:27Z" finished-at="2017-08-16T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingPageSearchTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.LandingPageSearch@edf4efb]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:39:49Z" finished-at="2017-08-16T15:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LandingPageSearchTest status=SUCCESS method=LandingPageSearch.LandingPageSearchTest()[pri:0, instance:com.test.excube360.TestCases.LandingPageSearch@edf4efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.LandingPageSearch@edf4efb]" name="afterclass" is-config="true" duration-ms="2308" started-at="2017-08-16T15:39:49Z" finished-at="2017-08-16T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.LandingPageSearch -->
+      <class name="com.test.excube360.TestCases.LinkedIn">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.LinkedIn@7f690630]" name="beforeclass" is-config="true" duration-ms="4962" started-at="2017-08-16T15:39:07Z" finished-at="2017-08-16T15:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="LinkedinLogin()[pri:0, instance:com.test.excube360.TestCases.LinkedIn@7f690630]" name="LinkedinLogin" duration-ms="7539" started-at="2017-08-16T15:39:12Z" finished-at="2017-08-16T15:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedinLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.LinkedIn@7f690630]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:39:19Z" finished-at="2017-08-16T15:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedinLogin status=SUCCESS method=LinkedIn.LinkedinLogin()[pri:0, instance:com.test.excube360.TestCases.LinkedIn@7f690630] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.LinkedIn@7f690630]" name="afterclass" is-config="true" duration-ms="2306" started-at="2017-08-16T15:39:19Z" finished-at="2017-08-16T15:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.test.excube360.TestCases.LinkedIn -->
+      <class name="com.test.excube360.TestCases.FBShare">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed]" name="beforeclass" is-config="true" duration-ms="4870" started-at="2017-08-16T15:43:34Z" finished-at="2017-08-16T15:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-16T15:43:39Z" finished-at="2017-08-16T15:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.excube360.TestCases.FBShare.FbShairing() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FbShairing()[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed]" name="FbShairing" duration-ms="24027" started-at="2017-08-16T15:43:39Z" finished-at="2017-08-16T15:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbShairing -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed]" name="afterclass" is-config="true" duration-ms="2273" started-at="2017-08-16T15:44:03Z" finished-at="2017-08-16T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed]" name="getResult" is-config="true" duration-ms="0" started-at="2017-08-16T15:44:03Z" finished-at="2017-08-16T15:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FbShairing status=SUCCESS method=FBShare.FbShairing()[pri:0, instance:com.test.excube360.TestCases.FBShare@3498ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.FBShare -->
+      <class name="com.test.excube360.TestCases.SearchWithoutLogin">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithoutLogin@6cd8737]" name="beforeclass" is-config="true" duration-ms="6858" started-at="2017-08-16T15:41:36Z" finished-at="2017-08-16T15:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Search()[pri:1, instance:com.test.excube360.TestCases.SearchWithoutLogin@6cd8737]" name="Search" duration-ms="36178" started-at="2017-08-16T15:41:43Z" finished-at="2017-08-16T15:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.test.excube360.TestCases.SearchWithoutLogin@6cd8737]" name="afterclass" is-config="true" duration-ms="2274" started-at="2017-08-16T15:42:19Z" finished-at="2017-08-16T15:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.excube360.TestCases.SearchWithoutLogin@6cd8737]" name="getResult" is-config="true" duration-ms="1" started-at="2017-08-16T15:42:21Z" finished-at="2017-08-16T15:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=SearchWithoutLogin.Search()[pri:1, instance:com.test.excube360.TestCases.SearchWithoutLogin@6cd8737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.excube360.TestCases.SearchWithoutLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

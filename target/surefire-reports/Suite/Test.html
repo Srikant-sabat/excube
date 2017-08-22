@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 16 15:37:36 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>514 seconds (514035 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.excube360.TestCases.CopyPasteEnvironmentScan.CopyPaste()'><b>CopyPaste</b><br>Test class: com.test.excube360.TestCases.CopyPasteEnvironmentScan</td>
+<td></td>
+<td>7</td>
+<td>com.test.excube360.TestCases.CopyPasteEnvironmentScan@4411d970</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.ApplyCoupon.CoupanCheck()'><b>CoupanCheck</b><br>Test class: com.test.excube360.TestCases.ApplyCoupon</td>
+<td></td>
+<td>37</td>
+<td>com.test.excube360.TestCases.ApplyCoupon@6442b0a6</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.FBShare.FbShairing()'><b>FbShairing</b><br>Test class: com.test.excube360.TestCases.FBShare</td>
+<td></td>
+<td>24</td>
+<td>com.test.excube360.TestCases.FBShare@3498ed</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithThreeKeywords.Five_Words_Search()'><b>Five_Words_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithThreeKeywords</td>
+<td></td>
+<td>21</td>
+<td>com.test.excube360.TestCases.SearchWithThreeKeywords@566776ad</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithTwoKeywords.Five_Words_Search()'><b>Five_Words_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithTwoKeywords</td>
+<td></td>
+<td>17</td>
+<td>com.test.excube360.TestCases.SearchWithTwoKeywords@1554909b</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithFiveKeywords.Five_Words_Search()'><b>Five_Words_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithFiveKeywords</td>
+<td></td>
+<td>10</td>
+<td>com.test.excube360.TestCases.SearchWithFiveKeywords@13969fbe</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithFourKeywords.Five_Words_Search()'><b>Five_Words_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithFourKeywords</td>
+<td></td>
+<td>14</td>
+<td>com.test.excube360.TestCases.SearchWithFourKeywords@21bcffb5</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.ForgotPassword.ForgetPassword()'><b>ForgetPassword</b><br>Test class: com.test.excube360.TestCases.ForgotPassword</td>
+<td></td>
+<td>20</td>
+<td>com.test.excube360.TestCases.ForgotPassword@6bf256fa</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.LandingPageText.HomePageSearchTest()'><b>HomePageSearchTest</b><br>Test class: com.test.excube360.TestCases.LandingPageText</td>
+<td></td>
+<td>6</td>
+<td>com.test.excube360.TestCases.LandingPageText@1a407d53</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.LandingPageSearch.LandingPageSearchTest()'><b>LandingPageSearchTest</b><br>Test class: com.test.excube360.TestCases.LandingPageSearch</td>
+<td></td>
+<td>22</td>
+<td>com.test.excube360.TestCases.LandingPageSearch@edf4efb</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.LinkedIn.LinkedinLogin()'><b>LinkedinLogin</b><br>Test class: com.test.excube360.TestCases.LinkedIn</td>
+<td></td>
+<td>7</td>
+<td>com.test.excube360.TestCases.LinkedIn@7f690630</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.MyContent.MyContentPageCheck()'><b>MyContentPageCheck</b><br>Test class: com.test.excube360.TestCases.MyContent</td>
+<td></td>
+<td>2</td>
+<td>com.test.excube360.TestCases.MyContent@6108b2d7</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithNoKeywords.No_Word_Search()'><b>No_Word_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithNoKeywords</td>
+<td></td>
+<td>0</td>
+<td>com.test.excube360.TestCases.SearchWithNoKeywords@35f983a6</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithOneKeyword.One_Word_Search()'><b>One_Word_Search</b><br>Test class: com.test.excube360.TestCases.SearchWithOneKeyword</td>
+<td></td>
+<td>0</td>
+<td>com.test.excube360.TestCases.SearchWithOneKeyword@3d8c7aca</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.ReportTest.Report()'><b>Report</b><br>Test class: com.test.excube360.TestCases.ReportTest</td>
+<td></td>
+<td>4</td>
+<td>com.test.excube360.TestCases.ReportTest@2f7a2457</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.DownloadReport.ReportDownload()'><b>ReportDownload</b><br>Test class: com.test.excube360.TestCases.DownloadReport</td>
+<td></td>
+<td>26</td>
+<td>com.test.excube360.TestCases.DownloadReport@22f71333</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.BuyReport.Reportbuy()'><b>Reportbuy</b><br>Test class: com.test.excube360.TestCases.BuyReport</td>
+<td></td>
+<td>12</td>
+<td>com.test.excube360.TestCases.BuyReport@60f82f98</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.ViewResult.ResultView()'><b>ResultView</b><br>Test class: com.test.excube360.TestCases.ViewResult</td>
+<td></td>
+<td>6</td>
+<td>com.test.excube360.TestCases.ViewResult@6aaa5eb0</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.SearchWithoutLogin.Search()'><b>Search</b><br>Test class: com.test.excube360.TestCases.SearchWithoutLogin</td>
+<td></td>
+<td>36</td>
+<td>com.test.excube360.TestCases.SearchWithoutLogin@6cd8737</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.VarifyLogin.login()'><b>login</b><br>Test class: com.test.excube360.TestCases.VarifyLogin</td>
+<td></td>
+<td>5</td>
+<td>com.test.excube360.TestCases.VarifyLogin@5ebec15</td></tr>
+<tr>
+<td title='com.test.excube360.TestCases.VarifyLogin.newRegisterTest()'><b>newRegisterTest</b><br>Test class: com.test.excube360.TestCases.VarifyLogin</td>
+<td></td>
+<td>32</td>
+<td>com.test.excube360.TestCases.VarifyLogin@5ebec15</td></tr>
+</table><p>
+</body>
+</html>
