@@ -45,7 +45,7 @@ public class GenericFunction {                        //generic function for bro
 		 
 		if(gv.getBrowserType().toLowerCase().equals("chrome"))  //open chromebrowser and set download path
 		 {
-			System.setProperty("webdriver.chrome.driver","chrome/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","chrome\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 	    	options.addArguments("--start-maximized");
 	    	Map<String, Object> prefs = new HashMap<String,Object>();
