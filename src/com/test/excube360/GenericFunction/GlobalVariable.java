@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  *
  */
 public class GlobalVariable {
-	private static final String browserType="chrome";
+	private static final String browserType="";
 	private static final String excelFilePath="D:\\Test\\Excube360Final\\TestData.xlsx";
 	private static final String excube360="http://www.excube360.com/";
 	private static final String gmail="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
